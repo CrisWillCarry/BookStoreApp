@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileSystemGlobbing;
+using System;
 
 namespace BookStoreApp.Controllers
 {
@@ -48,5 +50,88 @@ namespace BookStoreApp.Controllers
             TempData["message"] = $"{model.Book.Title} has been added in the cart";
             return RedirectToAction("Index", "Book");
         }
-	}
+
+        [HttpGet]
+        public IActionResult Edit(string id)
+        {
+            var bookToEdit = context.Books.Find(id);
+
+            ViewBag.Authors = context.Authors.ToList();
+            ViewBag.Genres = context.Genres.ToList();
+
+            return View(bookToEdit);
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Update(Book book)
+        {
+            if (ModelState.IsValid)
+            {
+                var existingGenre = context.Genres.FirstOrDefault(g => g.Name == book.Genre.Name);
+                var existingAuthor = context.Authors.FirstOrDefault(a => a.AuthorId == book.authorObject.AuthorId);
+
+                if (existingGenre != null)
+                {
+                    // Genre already exists, update the book's genre reference
+                    book.GenreId = existingGenre.GenreId;
+                    book.Genre = null; // Set Genre to null to avoid EF Core confusion in tracking
+                }
+                else
+                {
+                    // Genre doesn't exist, consider adding error handling or informing the user
+                    ViewBag.ErrorMessage = "The provided genre does not exist in the database.";
+                    return View("Edit", book);
+                }
+
+                if (existingAuthor != null)
+                {
+                    // Author already exists, update the book's author reference
+                    book.AuthorId = existingAuthor.AuthorId;
+                    book.authorObject = null; // Set authorObject to null to avoid EF Core confusion in tracking
+                }
+                else
+                {
+                    
+                    ViewBag.ErrorMessage = "The provided author does not exist in the database.";
+                    return View("Edit", book);
+                }
+
+                context.Books.Update(book);
+                context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ViewBag.ErrorMessage = "Oops! Something went wrong. Please check the entered information.";
+                return View("Edit", book);
+            }
+        }
+
+
+
+
+        [HttpGet]
+        public IActionResult Delete(string id)
+        {
+            var bookToDelete = context.Books.Find(id);
+
+            return View(bookToDelete);
+        }
+
+        [HttpPost]
+        public IActionResult DeleteConfirmed(string id)
+        {
+            var bookToDelete = context.Books.Find(id);
+
+            if (bookToDelete != null)
+            {
+                context.Books.Remove(bookToDelete);
+                context.SaveChanges();
+            }
+
+            return RedirectToAction("Index", "Book");
+        }
+    }
 }

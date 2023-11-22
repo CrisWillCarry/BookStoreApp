@@ -34,6 +34,8 @@
 			<th>Genre</th>
 			<th>Price</th>
 			<th></th>
+			<th></th>
+			<th></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -52,6 +54,18 @@
 						<input type="hidden" asp-for="@book.BookId" />
 						<input type="hidden" asp-for="@book.Title" />
 					</form>
+				</td>
+				<td>
+					<a asp-controller="Book" asp-action="Edit" asp-route-id="@book.ISBN">
+						<button class="btn btn-primary">
+							Edit
+						</button>
+					</a>
+				</td>
+				<td>
+					<a asp-controller="Book" asp-action="Delete" asp-route-id="@book.ISBN"><button class="btn btn-danger">
+							Delete
+						</button></a>
 				</td>
 			</tr>
 		}
