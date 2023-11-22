@@ -1,0 +1,320 @@
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\appsettings.json
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\BookStoreApp.staticwebassets.runtime.json
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\BookStoreApp.exe
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\BookStoreApp.deps.json
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\BookStoreApp.runtimeconfig.json
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\BookStoreApp.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\BookStoreApp.pdb
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.AssemblyReference.cache
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.AssemblyInfo.cs
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cache
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cs
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.BookStoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.BookStoreApp.props
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BookStoreApp.props
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BookStoreApp.props
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\scopedcss\bundle\BookStoreApp.styles.css
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\scopedcss\projectbundle\BookStoreApp.bundle.scp.css
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.CopyComplete
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\refint\BookStoreApp.dll
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.pdb
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\BookStoreApp.genruntimeconfig.cache
+C:\Users\david\OneDrive\Desktop\Azure\BookStoreApp\obj\Debug\net6.0\ref\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\appsettings.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\BookStoreApp.staticwebassets.runtime.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\BookStoreApp.exe
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\BookStoreApp.deps.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\BookStoreApp.runtimeconfig.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\BookStoreApp.pdb
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.AssemblyReference.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.AssemblyInfoInputs.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.AssemblyInfo.cs
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.CoreCompileInputs.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cs
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.BookStoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\scopedcss\bundle\BookStoreApp.styles.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\scopedcss\projectbundle\BookStoreApp.bundle.scp.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.CopyComplete
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\refint\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.pdb
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\BookStoreApp.genruntimeconfig.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\David Rallo_209280_assignsubmission_file\BookStoreApp\obj\Debug\net6.0\ref\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\appsettings.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\BookStoreApp.staticwebassets.runtime.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\BookStoreApp.exe
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\BookStoreApp.deps.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\BookStoreApp.runtimeconfig.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\BookStoreApp.pdb
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.AssemblyReference.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.AssemblyInfoInputs.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.AssemblyInfo.cs
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.CoreCompileInputs.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cs
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.BookStoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\scopedcss\bundle\BookStoreApp.styles.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\scopedcss\projectbundle\BookStoreApp.bundle.scp.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.csproj.CopyComplete
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\refint\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.pdb
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\BookStoreApp.genruntimeconfig.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\Submissions\Lab04\BookStoreApp\obj\Debug\net6.0\ref\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\appsettings.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.staticwebassets.runtime.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.exe
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.deps.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.runtimeconfig.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.pdb
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Humanizer.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.csproj.AssemblyReference.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.AssemblyInfoInputs.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.AssemblyInfo.cs
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.csproj.CoreCompileInputs.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cs
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets\msbuild.BookStoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets\msbuild.build.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BookStoreApp.props
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\scopedcss\bundle\BookStoreApp.styles.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\scopedcss\projectbundle\BookStoreApp.bundle.scp.css
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.csproj.CopyComplete
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\refint\BookStoreApp.dll
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.pdb
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.genruntimeconfig.cache
+C:\Users\hhichri\OneDrive - Champlain Regional College\courses\2023_420_N54_Azure\project\BookStoreApp_project_initial\obj\Debug\net6.0\ref\BookStoreApp.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\appsettings.json
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.staticwebassets.runtime.json
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.exe
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.deps.json
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.runtimeconfig.json
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\BookStoreApp.pdb
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Humanizer.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.csproj.AssemblyReference.cache
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.AssemblyInfoInputs.cache
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.AssemblyInfo.cs
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.csproj.CoreCompileInputs.cache
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cache
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.RazorAssemblyInfo.cs
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\scopedcss\bundle\BookStoreApp.styles.css
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\scopedcss\projectbundle\BookStoreApp.bundle.scp.css
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.csproj.CopyComplete
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\refint\BookStoreApp.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.pdb
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.genruntimeconfig.cache
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\ref\BookStoreApp.dll
