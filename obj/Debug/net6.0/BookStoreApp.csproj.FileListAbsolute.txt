@@ -318,3 +318,4 @@ C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp
 C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.pdb
 C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\BookStoreApp.genruntimeconfig.cache
 C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\obj\Debug\net6.0\ref\BookStoreApp.dll
+C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

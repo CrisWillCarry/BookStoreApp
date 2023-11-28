@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_project_initial\BookStoreApp_project_initial
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/cris2/source/.Net (FrameWork)/BookStoreApp_project_initial/BookStoreApp_project_initial/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cris2/source/.Net (FrameWork)/BookStoreApp_project_initial/BookStoreApp_project_initial/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/cris2/source/.Net (FrameWork)/BookStoreApp_project_initial/BookStoreApp_project_initial/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
