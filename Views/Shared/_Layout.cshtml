@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<User> signInManager
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -32,10 +34,30 @@
         <div class="d-flex gap-3">
             <img height="25px" width="25px" src="~/cart.png" style="color:white" />
             <a class="textInNav">Cart</a>
-            <img height="30px" width="35px" src="~/register.png" style="color:white" />
-            <a class="textInNav" asp-controller="Account" asp-action="LogIn">Log in</a>
+
+
+            @if (signInManager.IsSignedIn(User))
+            {
+                
+
+                <form method="post" asp-action="Logout"
+                  asp-controller="Account" asp-area="">
+                    <input type="submit" value="Log Out"
+                       class="btn btn-outline-light" />
+                    <span class="text-light">@User.Identity.Name</span>
+                </form>
+
+            }
+            else
+            {
+
+                <img height="30px" width="35px" src="~/register.png" style="color:white" />
+                <a class="textInNav" asp-controller="Account" asp-action="LogIn">Log in</a>
+
+            }
+           
             <img height="25px" width="25px" src="~/setting.png" style="color:white" />
-            <a class="textInNav">Admin</a>
+            <a class="textInNav" asp-controller="User" asp-action="Index">Admin</a>
         </div>
     </nav>
 

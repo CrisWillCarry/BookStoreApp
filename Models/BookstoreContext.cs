@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿	using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
@@ -6,6 +7,7 @@ namespace BookStoreApp.Models
 {
     public class BookstoreContext : IdentityDbContext<User>
     {
+
         public BookstoreContext(DbContextOptions<BookstoreContext> options)
             : base(options)
         {
@@ -29,6 +31,8 @@ namespace BookStoreApp.Models
 		  new Genre { GenreId = 7, Name = "Fantasy" }
 
 	  );
+
+			
 
 			modelBuilder.Entity<Book>().HasData(
 				new Book
@@ -528,5 +532,6 @@ namespace BookStoreApp.Models
 				}
 			);
         }
+     
     }
 }

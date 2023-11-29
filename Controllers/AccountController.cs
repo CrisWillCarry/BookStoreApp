@@ -89,5 +89,39 @@ namespace BookStoreApp.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        public ViewResult AccessDenied()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(
+        ChangePasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                User user = await userManager.FindByNameAsync(
+                    model.Username);
+                var result = await userManager.ChangePasswordAsync(user,
+                    model.OldPassword, model.NewPassword);
+
+                if (result.Succeeded)
+                {
+                    TempData["message"] = "Password changed successfully";
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    foreach (IdentityError error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+                }
+            }
+         
+            return View(model);
+        }
+
+
     }
 }

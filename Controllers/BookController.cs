@@ -5,14 +5,18 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileSystemGlobbing;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStoreApp.Controllers
 {
+    
     public class BookController : Controller
     {
 
         private BookstoreContext context { get; set; }
         public BookController(BookstoreContext ctx) =>  context = ctx;
+
+     
         public IActionResult Index(int page = 1, int pageSize = 5, int selectedGenreId = 0)
         {
 			int skip = (page - 1) * pageSize;
@@ -44,6 +48,8 @@ namespace BookStoreApp.Controllers
 
 			return View(viewModel);
         }
+
+       
         [HttpPost]
         public IActionResult Add(BookViewModel model)
         {
@@ -51,6 +57,7 @@ namespace BookStoreApp.Controllers
             return RedirectToAction("Index", "Book");
         }
 
+       
         [HttpGet]
         public IActionResult Edit(string id)
         {
@@ -63,7 +70,7 @@ namespace BookStoreApp.Controllers
         }
 
 
-
+        
         [HttpPost]
         public IActionResult Update(Book book)
         {
@@ -111,7 +118,7 @@ namespace BookStoreApp.Controllers
 
 
 
-
+        
         [HttpGet]
         public IActionResult Delete(string id)
         {

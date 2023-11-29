@@ -33,6 +33,14 @@ app.UseRouting();
 app.UseAuthorization();
 app.UseAuthentication();
 
+var scopeFactory = app.Services
+    .GetRequiredService<IServiceScopeFactory>();
+using (var scope = scopeFactory.CreateScope())
+{
+    await ConfigureIdentity.CreateAdminUserAsync(scope.ServiceProvider);
+}
+
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
