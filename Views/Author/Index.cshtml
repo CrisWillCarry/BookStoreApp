@@ -1,0 +1,59 @@
+﻿@model List<Author>
+
+@{
+    ViewData["Title"] = "Authors";
+}
+
+@if (TempData.Keys.Contains("message"))
+{
+    <h4 class="bg-success p-2">@TempData["message"]</h4>
+}
+
+<div>
+    <h2>Author List</h2>
+    <form method="get" asp-controller="Author" asp-action="Index">
+        <div class="form-group">
+            <label for="search">Search: (Case Sensitive)</label>
+            <input type="text" class="form-control" id="search" name="search" placeholder="Enter author name">
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+</div>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr class="text-white bg-dark">
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Author author in Model)
+        {
+            <tr>
+                <td>@author.FirstName</td>
+                <td>@author.LastName</td>
+                <td>
+                    <a asp-controller="Author" asp-action="Details" asp-route-id="@author.AuthorId">
+                        <button class="btn btn-primary">
+                            Details
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Author" asp-action="Edit" asp-route-id="@author.AuthorId">
+                        <button class="btn btn-primary">
+                            Edit
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Author" asp-action="Delete" asp-route-id="@author.AuthorId">
+                        <button class="btn btn-danger">
+                            Delete
+                        </button>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

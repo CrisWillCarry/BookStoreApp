@@ -7,26 +7,22 @@ namespace BookStoreApp.Models
     public class Book
     {
         [Key]
-        public string ISBN { get; set; }  // primary key
+        public string ISBN { get; set; }
 
         public int BookId { get; set; }  
         [Required]
         [StringLength(200)]
-        public string Title { get; set; } // not nullable
+        public string Title { get; set; }
 
         public double Price { get; set; }
 
-        public int AuthorId { get; set; } = 0; // foreign key property
+        public int AuthorId { get; set; } = 0;
 
         public Author authorObject { get; set; } = null!;
 
-        // foreign key property
-        public int GenreId { get; set; } = 0; // foreign key property
+        public int GenreId { get; set; } = 0;
 
-        // navigation property
         public Genre Genre { get; set; } = null!;
-
-
 
     }
 }
