@@ -7,8 +7,8 @@ using System.Data;
 
 namespace BookStoreApp.Controllers
 {
-  
 
+    [Authorize(Roles = "Admin")]
     public class UserController : Controller
     {
         private UserManager<User> userManager;

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Diagnostics;
 
 namespace BookStoreApp.Controllers
 {
@@ -94,31 +95,52 @@ namespace BookStoreApp.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> ChangePassword(
-        ChangePasswordViewModel model)
+        [HttpGet]
+        public async Task<IActionResult> ChangePassword(string id)
         {
+            var user = await userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound(); // Handle if user is not found
+            }
+
+            var model = new ChangePasswordViewModel
+            {
+                Username = user.UserName
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+        {
+            Debug.WriteLine("HEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"+model.Username);
             if (ModelState.IsValid)
             {
-                User user = await userManager.FindByNameAsync(
-                    model.Username);
-                var result = await userManager.ChangePasswordAsync(user,
-                    model.OldPassword, model.NewPassword);
+                var user = await userManager.FindByNameAsync(model.Username);
+                if (user == null)
+                {
+                    return NotFound(); // Handle if user is not found
+                }
 
-                if (result.Succeeded)
+                var passwordChangeResult = await userManager.ChangePasswordAsync(
+                    user, model.OldPassword, model.NewPassword);
+
+                if (passwordChangeResult.Succeeded)
                 {
                     TempData["message"] = "Password changed successfully";
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
-                    foreach (IdentityError error in result.Errors)
+                    foreach (var error in passwordChangeResult.Errors)
                     {
                         ModelState.AddModelError("", error.Description);
                     }
                 }
             }
-         
+
             return View(model);
         }
 

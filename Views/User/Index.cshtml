@@ -5,7 +5,7 @@
  
 <h1 class="mb-2">Manage Users</h1>
  
-<h5 class="mt-2"><a asp-action="Add">Add a User</a></h5>
+<h5 class="mt-2"><a asp-controller="Account" asp-action="Register">Add a User</a></h5>
  
 <table class="table table-bordered table-striped table-sm">
     <thead>
@@ -54,7 +54,7 @@
                         </form>
                     </td>
                     <td>
-                        <form method="post" asp-controller="Account" asp-action="ChangePassword"
+                        <form method="get" asp-controller="Account" asp-action="ChangePassword"
                       asp-route-id="@user.Id">
                             <button type="submit" class="btn btn-primary">
                                 Change Password

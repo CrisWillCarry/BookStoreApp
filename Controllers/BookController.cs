@@ -9,14 +9,14 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace BookStoreApp.Controllers
 {
-    
+  
     public class BookController : Controller
     {
 
         private BookstoreContext context { get; set; }
         public BookController(BookstoreContext ctx) =>  context = ctx;
 
-     
+        [AllowAnonymous]
         public IActionResult Index(int page = 1, int pageSize = 5, int selectedGenreId = 0)
         {
 			int skip = (page - 1) * pageSize;
@@ -49,7 +49,7 @@ namespace BookStoreApp.Controllers
 			return View(viewModel);
         }
 
-       
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult Add(BookViewModel model)
         {
@@ -57,7 +57,7 @@ namespace BookStoreApp.Controllers
             return RedirectToAction("Index", "Book");
         }
 
-       
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult Edit(string id)
         {
@@ -70,7 +70,8 @@ namespace BookStoreApp.Controllers
         }
 
 
-        
+        [Authorize(Roles = "Admin")]
+        [ValidateAntiForgeryToken]
         [HttpPost]
         public IActionResult Update(Book book)
         {
@@ -118,7 +119,7 @@ namespace BookStoreApp.Controllers
 
 
 
-        
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult Delete(string id)
         {
@@ -127,6 +128,7 @@ namespace BookStoreApp.Controllers
             return View(bookToDelete);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult DeleteConfirmed(string id)
         {

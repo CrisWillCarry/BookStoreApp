@@ -1,6 +1,8 @@
 ﻿using BookStoreApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+
 
 public class AuthorController : Controller
 {
@@ -11,6 +13,7 @@ public class AuthorController : Controller
         _context = context;
     }
 
+    [AllowAnonymous]
     public IActionResult Index(string search)
     {
         var authors = _context.Authors.ToList();
@@ -23,11 +26,13 @@ public class AuthorController : Controller
         return View(authors);
     }
 
+    [Authorize(Roles = "Admin")]
     public IActionResult Create()
     {
         return View();
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     public IActionResult Create(Author author)
     {
@@ -39,7 +44,7 @@ public class AuthorController : Controller
         }
         return View(author);
     }
-
+    [AllowAnonymous]
     public IActionResult Details(int id)
     {
         var author = _context.Authors.Find(id);
@@ -54,6 +59,7 @@ public class AuthorController : Controller
         return View(author);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpGet]
     public IActionResult Edit(int id)
     {
@@ -66,6 +72,7 @@ public class AuthorController : Controller
         return View(author);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult Edit(Author author)
@@ -96,6 +103,7 @@ public class AuthorController : Controller
         return View(author);
     }
 
+    [Authorize(Roles = "Admin")]
     public IActionResult Delete(int id)
     {
         var author = _context.Authors.Include(a => a.Books).FirstOrDefault(a => a.AuthorId == id);
@@ -107,6 +115,7 @@ public class AuthorController : Controller
         return View(author);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPost, ActionName("DeleteConfirmed")]
     [ValidateAntiForgeryToken]
     public IActionResult DeleteConfirmed(int id)
