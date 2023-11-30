@@ -1,0 +1,22 @@
+﻿@model BookStoreApp.Models.Author
+
+@{
+    ViewData["Title"] = "Author Details";
+}
+
+<h2>Author Details</h2>
+
+<div>
+    <h3>@Model.FirstName @Model.LastName</h3>
+    <p>Books by this author:</p>
+    <ul>
+        @foreach (var book in Model.Books)
+        {
+            <li>@book.Title</li>
+        }
+    </ul>
+</div>
+
+<p>
+    <a asp-controller="Author" asp-action="Index">Back to Author List</a>
+</p>

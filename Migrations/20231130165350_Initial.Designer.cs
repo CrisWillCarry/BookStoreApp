@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStoreApp.Migrations
 {
     [DbContext(typeof(BookstoreContext))]
-    [Migration("20231129041546_Initial")]
+    [Migration("20231130165350_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -806,7 +806,7 @@ namespace BookStoreApp.Migrations
             modelBuilder.Entity("BookStoreApp.Models.Book", b =>
                 {
                     b.HasOne("BookStoreApp.Models.Author", "authorObject")
-                        .WithMany()
+                        .WithMany("Books")
                         .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -871,6 +871,11 @@ namespace BookStoreApp.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("BookStoreApp.Models.Author", b =>
+                {
+                    b.Navigation("Books");
                 });
 #pragma warning restore 612, 618
         }
