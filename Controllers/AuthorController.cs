@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+using System.Linq;
 
 public class AuthorController : Controller
 {
@@ -14,16 +14,35 @@ public class AuthorController : Controller
     }
 
     [AllowAnonymous]
-    public IActionResult Index(string search)
+    public IActionResult Index(int page = 1, int pageSize = 5, string search = "")
     {
-        var authors = _context.Authors.ToList();
+        int skip = (page - 1) * pageSize;
+
+        var authorsQuery = _context.Authors.AsQueryable();
 
         if (!string.IsNullOrEmpty(search))
         {
-            authors = authors.Where(a => a.FirstName.Contains(search) || a.LastName.Contains(search)).ToList();
+            authorsQuery = authorsQuery.Where(a => a.FirstName.Contains(search) || a.LastName.Contains(search));
         }
 
-        return View(authors);
+        var totalCount = authorsQuery.Count();
+        var authors = authorsQuery.Skip(skip).Take(pageSize).ToList();
+
+        var pagedList = new PagedList<Author>
+        {
+            Items = authors,
+            PageNumber = page,
+            PageSize = pageSize,
+            TotalCount = totalCount
+        };
+
+        var viewModel = new AuthorViewModel
+        {
+            PageResult = pagedList,
+            Search = search
+        };
+
+        return View(viewModel);
     }
 
     [Authorize(Roles = "Admin")]
@@ -44,6 +63,7 @@ public class AuthorController : Controller
         }
         return View(author);
     }
+
     [AllowAnonymous]
     public IActionResult Details(int id)
     {
@@ -133,5 +153,11 @@ public class AuthorController : Controller
         _context.SaveChanges();
 
         return RedirectToAction(nameof(Index));
+    }
+
+    public class AuthorViewModel
+    {
+        public PagedList<Author> PageResult { get; set; }
+        public string Search { get; set; }
     }
 }
