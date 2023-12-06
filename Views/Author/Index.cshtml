@@ -1,5 +1,4 @@
-﻿@model List<Author>
-
+﻿@model AuthorController.AuthorViewModel
 @{
     ViewData["Title"] = "Authors";
 }
@@ -27,7 +26,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (Author author in Model)
+        @foreach (var author in Model.PageResult.Items)
         {
             <tr>
                 <td>@author.FirstName</td>
@@ -57,3 +56,21 @@
         }
     </tbody>
 </table>
+<div class="text-center">
+    <pager asp-action="Index" asp-controller="Author" asp-route-page="@Model.PageResult.PageNumber" asp-route-pageSize="@Model.PageResult.PageSize" asp-route-totalItemCount="@Model.PageResult.TotalCount" id="authorPager">
+        <ul class="pagination">
+            <li class="page-item @((Model.PageResult.PageNumber == 1) ? "disabled" : "")">
+                <a class="page-link" href="@(Url.Page("/Index", new { page = 1, pageSize = Model.PageResult.PageSize, search = Model.Search }))">1</a>
+            </li>
+            @for (int i = 2; i <= Model.PageResult.TotalPages; i++)
+            {
+                <li class="page-item @(Model.PageResult.PageNumber == i ? "active" : "")">
+                    <a class="page-link" href="@(Url.Action("Index", "Author", new { page = i, pageSize = Model.PageResult.PageSize, search = Model.Search }))">@i</a>
+                </li>
+            }
+            <li class="page-item @((Model.PageResult.PageNumber == Model.PageResult.TotalPages) ? "disabled" : "")">
+                <a class="page-link" href="@(Url.Action("Index", "Author", new { page = Model.PageResult.PageNumber + 1, pageSize = Model.PageResult.PageSize, search = Model.Search }))">Next</a>
+            </li>
+        </ul>
+    </pager>
+</div>
