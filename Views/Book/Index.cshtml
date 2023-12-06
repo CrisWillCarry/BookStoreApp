@@ -47,7 +47,7 @@
 				<td>@book.Genre.Name</td>
 				<td>$@book.Price</td>
 				<td>
-					<form method="post" asp-action="Add" asp-controller="Book">
+					<form method="post" asp-action="Add" asp-route-id=@book.BookId asp-controller="Cart">
 						<button type="submit" class="btn btn-primary">
 							Add to cart
 						</button>

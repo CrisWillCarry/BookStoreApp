@@ -4,6 +4,17 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
+
+builder.Services.AddSession(options =>
+{
+    // change idle timeout to 5 minutes - default is 20 minutes
+    options.IdleTimeout = TimeSpan.FromSeconds(60 * 5);
+    options.Cookie.HttpOnly = false;     // default is true
+    options.Cookie.IsEssential = true;   // default is false
+});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -29,7 +40,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
+app.UseRouting(); 
+app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 

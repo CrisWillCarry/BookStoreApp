@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cris2\\source\\.Net (FrameWork)\\BookStoreApp_project_initial\\BookStoreApp\\BookStoreApp.csproj": {}
+    "C:\\Users\\Da Zhuo\\Documents\\zSchool\\5thSemester\\ASP\\BookStoreApp\\BookStoreApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cris2\\source\\.Net (FrameWork)\\BookStoreApp_project_initial\\BookStoreApp\\BookStoreApp.csproj": {
+    "C:\\Users\\Da Zhuo\\Documents\\zSchool\\5thSemester\\ASP\\BookStoreApp\\BookStoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cris2\\source\\.Net (FrameWork)\\BookStoreApp_project_initial\\BookStoreApp\\BookStoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\Da Zhuo\\Documents\\zSchool\\5thSemester\\ASP\\BookStoreApp\\BookStoreApp.csproj",
         "projectName": "BookStoreApp",
-        "projectPath": "C:\\Users\\cris2\\source\\.Net (FrameWork)\\BookStoreApp_project_initial\\BookStoreApp\\BookStoreApp.csproj",
-        "packagesPath": "C:\\Users\\cris2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cris2\\source\\.Net (FrameWork)\\BookStoreApp_project_initial\\BookStoreApp\\obj\\",
+        "projectPath": "C:\\Users\\Da Zhuo\\Documents\\zSchool\\5thSemester\\ASP\\BookStoreApp\\BookStoreApp.csproj",
+        "packagesPath": "C:\\Users\\Da Zhuo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Da Zhuo\\Documents\\zSchool\\5thSemester\\ASP\\BookStoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cris2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Da Zhuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

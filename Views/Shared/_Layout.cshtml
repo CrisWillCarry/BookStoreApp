@@ -1,5 +1,11 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @inject SignInManager<User> signInManager
+
+@{
+    string controller =
+        ViewContext.RouteData.Values["controller"]?.ToString() ?? "";
+}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +27,35 @@
       
 </style>
 <body>
+
+    <header class="text-center text-white">
+
+        @* show any message in TempData *@
+        @if (TempData.Keys.Contains("message"))
+        {
+            <h4 class="bg-success p-2">@TempData["message"]</h4>
+        }
+        @* show link to Favorites page unless on page *@
+        @if (controller != "Cart")
+        {
+            var session = new BookSession(Context.Session);
+            int? count = session.GetMyBookCount();
+
+            @* if fave teams in session, display faves link *@
+            @if (count.HasValue)
+            {
+                <h5 class="bg-info p-2">
+                    <a asp-controller="Cart"
+                       asp-action="Index"
+                       class="text-white">Cart</a>
+                    <span class="badge bg-light text-black">
+                        @count
+                    </span>
+                </h5>
+            }
+        }
+    </header>
+
     <nav style="margin: 0px 5%" class="d-flex flex-row justify-content-between bg-dark px-4 py-2">
         <div class="d-flex gap-3">
             <img height="25px" width="25px" src="~/home2.png" style="color:white" />
@@ -33,8 +68,7 @@
 
         <div class="d-flex gap-3">
             <img height="25px" width="25px" src="~/cart.png" style="color:white" />
-            <a class="textInNav">Cart</a>
-
+            <a class="textInNav" asp-controller="Cart" asp-action="Index">Cart</a>
 
             @if (signInManager.IsSignedIn(User))
             {
