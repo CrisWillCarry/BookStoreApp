@@ -516,3 +516,8 @@ C:\Users\saifm\OneDrive\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\JetBrains
 C:\Users\saifm\OneDrive\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\X.PagedList.dll
 C:\Users\saifm\OneDrive\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
 C:\Users\saifm\OneDrive\Documents\GitHub\BookStoreApp\obj\Debug\net6.0\BookStoreApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Minim\Documents\GitHub\BookStoreApp\obj\Debug\net6.0\BookStoreApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Minim\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\Minim\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Minim\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\Minim\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
