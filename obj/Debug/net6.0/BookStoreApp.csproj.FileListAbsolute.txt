@@ -581,3 +581,8 @@ C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_Project\BookStoreApp\obj\Deb
 C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_Project\BookStoreApp\obj\Debug\net6.0\BookStoreApp.pdb
 C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_Project\BookStoreApp\obj\Debug\net6.0\BookStoreApp.genruntimeconfig.cache
 C:\Users\cris2\source\.Net (FrameWork)\BookStoreApp_Project\BookStoreApp\obj\Debug\net6.0\ref\BookStoreApp.dll
+C:\Users\Minim\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\Minim\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Minim\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\Minim\Documents\GitHub\BookStoreApp\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+C:\Users\Minim\Documents\GitHub\BookStoreApp\obj\Debug\net6.0\BookStoreApp.MvcApplicationPartsAssemblyInfo.cs

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using System.Linq;
 
 public class AuthorController : Controller
@@ -146,11 +147,67 @@ public class AuthorController : Controller
             return NotFound();
         }
 
+        var settings = new JsonSerializerSettings
+        {
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+        };
+
+        TempData["DeletedAuthor"] = JsonConvert.SerializeObject(author, settings);
+        TempData["DeletedBooks"] = JsonConvert.SerializeObject(author.Books, settings);
+
         _context.Authors.Remove(author);
-
         _context.Books.RemoveRange(author.Books);
-
         _context.SaveChanges();
+
+        return RedirectToAction(nameof(Index));
+    }
+
+    [Authorize(Roles = "Admin")]
+    [HttpPost]
+    public IActionResult UndoDelete()
+    {
+        // Check if TempData contains the deleted author and their books
+        if (TempData.ContainsKey("DeletedAuthor") && TempData.ContainsKey("DeletedBooks"))
+        {
+            // Deserialize the author and their books from JSON
+            var deletedAuthor = JsonConvert.DeserializeObject<Author>(TempData["DeletedAuthor"].ToString());
+            var deletedBooks = JsonConvert.DeserializeObject<List<Book>>(TempData["DeletedBooks"].ToString());
+
+            if (deletedAuthor != null && deletedBooks != null)
+            {
+                // Create a new author with the same data as the deleted author
+                var author = new Author
+                {
+                    FirstName = deletedAuthor.FirstName,
+                    LastName = deletedAuthor.LastName
+                };
+
+                // Add the new author to the database
+                _context.Authors.Add(author);
+                _context.SaveChanges();
+
+                // Assign the new AuthorId to the books and reinsert them
+                foreach (var deletedBook in deletedBooks)
+                {
+                    var book = new Book
+                    {
+                        Title = deletedBook.Title,
+                        Price = deletedBook.Price,
+                        GenreId = deletedBook.GenreId,
+                        AuthorId = author.AuthorId,
+                        ISBN = deletedBook.ISBN
+                    };
+
+                    _context.Books.Add(book);
+                }
+
+                _context.SaveChanges();
+
+                // Clear the TempData
+                TempData.Remove("DeletedAuthor");
+                TempData.Remove("DeletedBooks");
+            }
+        }
 
         return RedirectToAction(nameof(Index));
     }

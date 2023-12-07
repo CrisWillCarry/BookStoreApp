@@ -74,3 +74,10 @@
         </ul>
     </pager>
 </div>
+
+@if (TempData.ContainsKey("DeletedAuthor"))
+{
+    <form asp-action="UndoDelete" asp-controller="Author" method="post">
+        <input type="submit" value="Undo Delete" class="btn btn-secondary" />
+    </form>
+}
