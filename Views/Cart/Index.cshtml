@@ -1,0 +1,48 @@
+﻿@model BookListViewModel
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<div class="text-center mb-4">
+    <h2>My Cart</h2>
+
+    <div class="row">
+        <div class="col-8 offset-2">
+            <ul class="list-group">
+                @foreach (Book book in Model.Books)
+                {
+                    <li class="list-group-item">
+                        <div class="row">
+
+                            <div class="col-sm-4">
+                                @book.Title
+                            </div>
+
+
+                            <div class="col-sm-4">
+                                @book.Price
+                            </div>
+
+
+
+                        </div>
+                    </li>
+
+                }
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <form asp-action="Delete" method="post">
+        <a asp-action="Index" asp-controller="Home"
+           class="btn btn-primary">
+            Back to Home Page
+        </a>
+        <button type="submit" class="btn btn-primary">
+            Clear Cart
+        </button>
+    </form>
+</div>

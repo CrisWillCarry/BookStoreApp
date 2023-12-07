@@ -4,6 +4,19 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
+
+builder.Services.AddSession(options =>
+{
+    
+    options.IdleTimeout = TimeSpan.FromSeconds(60 * 5);
+    options.Cookie.HttpOnly = false;     
+    options.Cookie.IsEssential = true;
+});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -30,6 +43,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 

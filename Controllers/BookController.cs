@@ -49,13 +49,7 @@ namespace BookStoreApp.Controllers
 			return View(viewModel);
         }
 
-        [Authorize(Roles = "Admin")]
-        [HttpPost]
-        public IActionResult Add(BookViewModel model)
-        {
-            TempData["message"] = $"{model.Book.Title} has been added in the cart";
-            return RedirectToAction("Index", "Book");
-        }
+
 
         [Authorize(Roles = "Admin")]
         [HttpGet]
